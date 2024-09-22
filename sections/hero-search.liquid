@@ -1,0 +1,260 @@
+{% comment %}
+  Hero Search Section
+  This section replaces the main carousel with a prominent search bar
+{% endcomment %}
+
+<div class="hero-search" style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');">
+  <div class="hero-search__container">
+    <h1 class="hero-search__title">{{ section.settings.title }}</h1>
+    <p class="hero-search__subtitle">{{ section.settings.subtitle }}</p>
+    <form action="/search" method="get" role="search" class="hero-search__form">
+      <input type="hidden" name="type" value="product">
+      <div class="hero-search__input-wrapper">
+        <input type="search" name="q" id="Search" placeholder="{{ section.settings.placeholder }}" class="hero-search__input" autocomplete="off">
+        <ul class="hero-search__autocomplete" id="SearchAutocomplete"></ul>
+      </div>
+      <button type="submit" class="hero-search__button">
+        {% render 'icon-search' %}
+        <span class="visually-hidden">{{ 'general.search.submit' | t }}</span>
+      </button>
+    </form>
+    {% if section.settings.show_popular_searches %}
+      <div class="hero-search__popular">
+        <span>{{ 'search.popular_searches' | t }}:</span>
+        {% assign popular_searches = section.settings.popular_searches | split: ',' %}
+        {% for search in popular_searches %}
+          <a href="/search?type=product&q={{ search | strip | url_encode }}">{{ search | strip }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Search",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Find Your Perfect Gate Solution"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Search our wide range of gate automation products"
+    },
+    {
+      "type": "text",
+      "id": "placeholder",
+      "label": "Search Placeholder",
+      "default": "Search for gate motors, kits, accessories..."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_popular_searches",
+      "label": "Show Popular Searches",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "popular_searches",
+      "label": "Popular Searches",
+      "info": "Separate search terms with commas",
+      "default": "Gate Kits, Sliding Motors, Swing Arms"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Search",
+      "category": "Search"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.hero-search {
+  background-color: #f8f9fa;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+}
+
+.hero-search::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-search__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-search__title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.hero-search__subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.hero-search__form {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero-search__input-wrapper {
+  flex-grow: 1;
+  position: relative;
+}
+
+.hero-search__input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.hero-search__button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.hero-search__autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.hero-search__autocomplete li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hero-search__autocomplete li:hover {
+  background-color: #f0f0f0;
+}
+
+.hero-search__popular {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.hero-search__popular a {
+  margin: 0 5px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hero-search__popular a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-search {
+    padding: 60px 0;
+  }
+
+  .hero-search__title {
+    font-size: 28px;
+  }
+
+  .hero-search__subtitle {
+    font-size: 16px;
+  }
+
+  .hero-search__form {
+    flex-direction: column;
+  }
+
+  .hero-search__input {
+    border-right: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .hero-search__button {
+    border-radius: 4px;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('Search');
+  var autocompleteList = document.getElementById('SearchAutocomplete');
+
+  searchInput.addEventListener('input', function() {
+    var searchTerm = this.value;
+    if (searchTerm.length > 2) {
+      fetch('/search/suggest.json?q=' + encodeURIComponent(searchTerm) + '&resources[type]=product')
+        .then(response => response.json())
+        .then(suggestions => {
+          autocompleteList.innerHTML = '';
+          if (suggestions.resources.results.products.length > 0) {
+            suggestions.resources.results.products.forEach(product => {
+              var li = document.createElement('li');
+              li.textContent = product.title;
+              li.addEventListener('click', function() {
+                searchInput.value = product.title;
+                autocompleteList.style.display = 'none';
+              });
+              autocompleteList.appendChild(li);
+            });
+            autocompleteList.style.display = 'block';
+          } else {
+            autocompleteList.style.display = 'none';
+          }
+        });
+    } else {
+      autocompleteList.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('click', function(event) {
+    if (!searchInput.contains(event.target) && !autocompleteList.contains(event.target)) {
+      autocompleteList.style.display = 'none';
+    }
+  });
+});
+{% endjavascript %}

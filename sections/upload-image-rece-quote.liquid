@@ -1,0 +1,207 @@
+<style>
+.upload-image-main .left-section,
+  .upload-image-main .right-section{
+    background: var( --skyblue);
+  }
+  .upload-image-main .title{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize
+  }
+  .upload-image-main .left-images{
+    display: grid;
+    grid-template-columns: 22% 51% 22%;
+    gap: 14px;
+  }
+  .upload-image-main .link{
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    background: var( --skyblue);
+    width: 190px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+@media(max-width: 767px){
+  .upload-image-main .left-section,
+  .upload-image-main .right-section{
+    width: 100%;
+  }
+   .upload-image-main .title{
+    font-size: 24px;
+   }
+   .upload-image-main .left-section,
+  .upload-image-main .right-section{
+    padding: 22px 40px;
+  }
+   .upload-image-main .left-images img,
+  .upload-image-main .right-section .image{
+    border-radius: 16px;
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .upload-image-main .left-section .left-images,
+   .upload-image-main .left-section .icon,
+   .upload-image-main .left-section .title,
+   .upload-image-main .right-section .image,
+   .upload-image-main .right-section .icon,
+   .upload-image-main .right-section .title{
+    margin-bottom: 18px;
+  }
+}
+@media(min-width: 768px){
+  .upload-image-main {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+    gap: 3px;
+  }
+  
+  .upload-image-main .left-section .left-images,
+   .upload-image-main .left-section .icon,
+   .upload-image-main .left-section .title,
+   .upload-image-main .right-section .image,
+   .upload-image-main .right-section .icon,
+   .upload-image-main .right-section .title{
+    margin-bottom: 24px;
+  }
+  .upload-image-main .title{
+    font-size: 32px;
+   }
+   .upload-image-main .left-section,
+  .upload-image-main .right-section{
+    padding: 32px 80px;
+  }
+   .upload-image-main .left-images img,
+  .upload-image-main .right-section .image{
+    border-radius: 16px;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media(max-width: 991px) {
+.upload-image-main .left-images{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 14px;
+  }    
+} 
+@media(min-width: 992px) {
+.upload-image-main .left-images{
+    display: grid;
+    grid-template-columns: 22% 51% 22%;
+    gap: 14px;
+  }    
+}
+@media(min-width: 1300px){
+   .upload-image-main .left-images img,
+  .upload-image-main .right-section .image{
+    height: 151px;
+  }
+}
+</style>
+
+<section class="upload-image-main">
+  <div class="left-section">
+      <div class="left-images">
+           <img src="{{ section.settings.img1 | img_url : 'master' }}">
+           <img src="{{ section.settings.img2 | img_url : 'master' }}">
+           <img src="{{ section.settings.img3 | img_url : 'master' }}">
+      </div>
+     <img class="icon" src="{{ section.settings.icon | img_url : 'master' }}">
+    <h1 class="title">{{ section.settings.text1 }}</h1>
+    <!-- <a class="link open" href="{{ section.settings.btn1_url }}">{{ section.settings.btn1 }}</a> -->
+    <button class="link open">{{ section.settings.btn1 }}</button>
+    
+  </div>
+  <div class="right-section">
+     <img class="image" src="{{ section.settings.img4 | img_url : 'master' }}">
+     <img class="icon" src="{{ section.settings.icon2 | img_url : 'master' }}">
+    <h1 class="title">{{ section.settings.text2 }}</h1>
+    <a class="link" href="{{ section.settings.btn2_url }}">{{ section.settings.btn2 }}</a>
+  </div> 
+</section>
+{% render 'upload-popup' %}
+
+{% schema %}
+  {
+    "name": "upload image received",
+    "settings": [
+      {
+      "type":"image_picker",
+       "id":"img1",
+        "label":"image 1"
+      },
+      {
+      "type":"image_picker",
+       "id":"img2",
+        "label":"image 2"
+      },
+      {
+      "type":"image_picker",
+       "id":"img3",
+        "label":"image 3"
+      },
+      {
+      "type":"image_picker",
+       "id":"icon",
+        "label":"Icon"
+      },
+      {
+      "type":"text",
+       "id":"text1",
+        "label":"Title"
+      },
+      {
+      "type":"text",
+       "id":"btn1",
+        "label":"button 1"
+      },
+      {
+      "type":"url",
+       "id":"btn1_url",
+        "label":"button link"
+      },
+      {
+      "type":"image_picker",
+       "id":"img4",
+        "label":"image 4"
+      },
+      {
+      "type":"image_picker",
+       "id":"icon2",
+        "label":"Icon 2"
+      },
+      {
+      "type":"text",
+       "id":"text2",
+        "label":"Title 2"
+      },
+      {
+      "type":"text",
+       "id":"btn2",
+        "label":"button 2"
+      },
+      {
+      "type":"url",
+       "id":"btn1_url2",
+        "label":"button 2 link"
+      }
+    ],
+    "presets": [
+    {
+      "name": "upload image received"
+    }
+  ]
+  }
+{% endschema %}

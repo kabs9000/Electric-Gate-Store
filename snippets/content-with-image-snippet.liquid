@@ -1,0 +1,82 @@
+<style>
+  .content-with-image-main{
+    background: #092333;
+  }
+  .content-with-image-main .title-dev h1,
+  .last-heading-section2 h1,
+  .content-with-image-main .title-dev h2{
+    color: #fff;
+  }
+   .last-heading-section2{
+    background: #2DBDE8;
+  }
+  
+
+@media(max-width: 767px){
+   .content-with-image-main .title-dev .hdt-h4,
+  .last-heading-section2 .hdt-h4{
+    font-size: 30px;
+  }
+}  
+@media(min-width: 768px) {
+  .content-with-image-main .title-dev h1{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 67px; /* 139.583% */
+    text-transform: capitalize;  
+  }
+
+   .content-with-image-main .title-dev h2{
+    /* font-family: "Chakra Petch"; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .last-heading-section2 h1{
+    /* font-family: "Chakra Petch"; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+@media(min-width: 1440px) {
+  .content-with-image-main .title-dev .hdt-h4{
+    font-size: 48px;
+  }
+   .last-heading-section2 .hdt-h4{
+       font-size: 54px;
+   }
+   .content-with-image-main .title-dev h2{
+     font-size: 40px;
+   }
+  .custom-snippet-img .hdt-container{
+    max-width: 100%
+  }
+}  
+</style>
+<div class="content-with-image-main">
+
+    <div class="title-img-section1">
+      
+      <div class="title-dev">  
+        <h3 class="hdt-h4">{{ block.settings.heading1 }}</h3>
+        <a class="find-our-more-btn" href="{{ block.settings.cs_btn_link }}">{{ block.settings.cs_btn_label }}</a>
+        <h2>{{ block.settings.heading2 }} </h2>  
+      </div>
+      
+      <div class="img-div">
+        <!-- {{ block.settings.img2 | img_url | img_tag  : 'master',loading: 'lazy'}}  -->
+        <img src="{{ block.settings.img2 | img_url : 'master' }}">
+      </div>
+      
+    </div>
+    <div class="last-heading-section2">
+      <h3 class="hdt-h4">{{ block.settings.heading3 }}</h3>
+    </div>
+    
+</div>

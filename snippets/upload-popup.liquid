@@ -1,0 +1,78 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<style >
+
+.uploadpopup.popup-overlay {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: fixed;
+    background: #ffffff;
+    border: 1px solid #fff;
+  border-radius: 12px;
+    width: 50%;
+    top: 50%;
+    height: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  padding: 30px
+}
+@media(max-width: 767px){
+  .uploadpopup.popup-overlay {
+     width: 80% !important; 
+  }
+  .uploadpopup button {
+    width: 150px !important;
+    top: 100% !important
+  }
+}
+.uploadpopup.popup-overlay.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.uploadpopup .popup-content {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.uploadpopup .popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+.uploadpopup button {
+border-radius: 12px;
+    background: #FFA800;
+    width: 200px;
+    height: 56px;
+    color: #fff;
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+
+<div class="popup-overlay uploadpopup">
+  <!--Creates the popup content-->
+  <div class="popup-content">
+    
+    <div style="margin:0 auto;" class="pxFormGenerator" id="1212tIX2zzXgfmNPaIiU1A"></div>
+    <button class="close">Close</button> </div>
+</div>
+  
+
+
+<script>
+      //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+$(".open").on("click", function() {
+  $(".popup-overlay, .popup-content").addClass("active");
+});
+
+//removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+$(".close, .popup-overlay").on("click", function() {
+  $(".popup-overlay, .popup-content").removeClass("active");
+});
+</script>

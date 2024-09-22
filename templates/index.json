@@ -1,0 +1,1349 @@
+{
+  "sections": {
+    "homepage-search": {
+      "type": "homepage-search",
+      "settings": {}
+    },
+    "slideshow_with_banner_gxDwkg": {
+      "type": "slideshow-with-banner",
+      "blocks": {
+        "slide_label_NJ34qG": {
+          "type": "slide_label",
+          "settings": {
+            "logoid": false,
+            "image": "shopify://shop_images/main-banner.png",
+            "url": "",
+            "banner_target": false,
+            "color_scheme": "",
+            "sub_heading": "AUTOMATIC BARRIERS FOR ALL APPLICATIONS",
+            "sub_heading_fs": "base",
+            "sub_heading_fw": "medium",
+            "sub_heading_bg": false,
+            "heading": "Fantastic Range of  Barriers Available From Leading Manufacturers",
+            "details_text": "We are passionate about providing high quality solutions so that your gate system is reliable ans secure",
+            "heading_fs": "h4",
+            "heading_fw": "semibold",
+            "reverseid": false,
+            "btn_label": "Automatic Barriers",
+            "btn_link": "shopify://collections/barriers",
+            "target": false,
+            "btn_size": "base",
+            "btn_style": "solid",
+            "btn_fw": "normal",
+            "btn_icon": "none",
+            "btn2_label": "",
+            "btn2_link": "",
+            "target2": false,
+            "btn2_size": "base",
+            "btn2_style": "solid",
+            "btn2_fw": "normal",
+            "btn2_icon": "none",
+            "content_bg": false,
+            "content_position": "center-start",
+            "alignment": "left",
+            "hide_subtext_mb": false,
+            "content_position_mb": "center",
+            "alignment_mb": "center"
+          }
+        },
+        "slide_label_9Vd4En": {
+          "type": "slide_label",
+          "settings": {
+            "logoid": false,
+            "image": "shopify://shop_images/Group_1000001882.png",
+            "url": "shopify://collections/faac-products",
+            "banner_target": false,
+            "color_scheme": "",
+            "sub_heading": "FAAC - THE LEADING PROVIDER OF ACCESS AUTOMATION SYSTEMS",
+            "sub_heading_fs": "base",
+            "sub_heading_fw": "medium",
+            "sub_heading_bg": false,
+            "heading": "Nationwide Distributer of FAAC Electric Gate Kits & Automation",
+            "details_text": "We are passionate about providing high quality solutions so that your gate system is reliable ans secure",
+            "heading_fs": "h4",
+            "heading_fw": "semibold",
+            "reverseid": false,
+            "btn_label": "FAAC",
+            "btn_link": "shopify://collections/barriers",
+            "target": false,
+            "btn_size": "base",
+            "btn_style": "solid",
+            "btn_fw": "normal",
+            "btn_icon": "none",
+            "btn2_label": "",
+            "btn2_link": "",
+            "target2": false,
+            "btn2_size": "base",
+            "btn2_style": "solid",
+            "btn2_fw": "normal",
+            "btn2_icon": "none",
+            "content_bg": false,
+            "content_position": "center-start",
+            "alignment": "left",
+            "hide_subtext_mb": false,
+            "content_position_mb": "center",
+            "alignment_mb": "center"
+          }
+        },
+        "slide_label_yyEU8t": {
+          "type": "slide_label",
+          "settings": {
+            "logoid": false,
+            "image": "shopify://shop_images/main-banner.png",
+            "url": "",
+            "banner_target": false,
+            "color_scheme": "",
+            "sub_heading": "AUTOMATIC BARRIERS FOR ALL APPLICATIONS",
+            "sub_heading_fs": "base",
+            "sub_heading_fw": "medium",
+            "sub_heading_bg": false,
+            "heading": "Fantastic Range of  Barriers Available From Leading Manufacturers",
+            "details_text": "We are passionate about providing high quality solutions so that your gate system is reliable ans secure",
+            "heading_fs": "h4",
+            "heading_fw": "semibold",
+            "reverseid": false,
+            "btn_label": "Automatic Barriers",
+            "btn_link": "shopify://collections/barriers",
+            "target": false,
+            "btn_size": "base",
+            "btn_style": "solid",
+            "btn_fw": "normal",
+            "btn_icon": "none",
+            "btn2_label": "",
+            "btn2_link": "",
+            "target2": false,
+            "btn2_size": "base",
+            "btn2_style": "solid",
+            "btn2_fw": "normal",
+            "btn2_icon": "none",
+            "content_bg": false,
+            "content_position": "center-start",
+            "alignment": "left",
+            "hide_subtext_mb": false,
+            "content_position_mb": "center",
+            "alignment_mb": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_label_NJ34qG",
+        "slide_label_9Vd4En",
+        "slide_label_yyEU8t"
+      ],
+      "settings": {
+        "item_round": "rounded",
+        "image_height": "adapt_image",
+        "fixed_height": 860,
+        "image_height_tb": "adapt_image",
+        "fixed_height_tb": 500,
+        "image_height_mb": "adapt_image",
+        "fixed_height_mb": 300,
+        "loop": false,
+        "auto_play": 0,
+        "pause_hover": false,
+        "navUI": true,
+        "dotUI": false,
+        "dot_style": "default",
+        "dot_direction": "horizontal",
+        "dot_align": "end",
+        "dot_space": 40,
+        "section_fullwidth": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_rate": 75
+      }
+    },
+    "3350a7b8-0ebe-4590-b09f-f48c11888dc7": {
+      "type": "icon-box",
+      "blocks": {
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-1": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "box",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Mask_group.png",
+            "icon_width": 26,
+            "icon_width_mb": 24,
+            "link": "",
+            "open_link": false,
+            "title": "Next Day Delivery",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-2": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "payment",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Mask_group-2.png",
+            "icon_width": 26,
+            "icon_width_mb": 24,
+            "link": "",
+            "open_link": false,
+            "title": "Dispatched Same Day From UK Warehouse",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-3": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "return",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Mask_group-1.png",
+            "icon_width": 26,
+            "icon_width_mb": 24,
+            "link": "",
+            "open_link": false,
+            "title": "Click & Collect Available",
+            "content": "",
+            "adding_border": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-1",
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-2",
+        "template--21119922831664__3350a7b8-0ebe-4590-b09f-f48c11888dc7-item-3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_align": "start",
+        "sec_heading": "",
+        "heading_tag": "h5",
+        "heading_size": "h5",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 29,
+        "sec_heading_spacing": 30,
+        "icon_pos_center": false,
+        "icon_pos_center_mb": true,
+        "icon_circle": true,
+        "space_icon_heading": "small",
+        "size_heading": "medium",
+        "heading_uppercase": false,
+        "space_heading_content": "small",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "carousel_mobile": true,
+        "border_style": "none",
+        "fullwidth": true,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_rate": 30
+      }
+    },
+    "9e661334-de0a-4d14-8baf-44dab9cec2c7": {
+      "type": "brands",
+      "blocks": {
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-1": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/image_49.png",
+            "url": ""
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-2": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/image_50.png",
+            "url": ""
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-3": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/image_51.png",
+            "url": ""
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-4": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/image_52.png",
+            "url": ""
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-5": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/Group_1000001732.png",
+            "url": "shopify://collections/faac-products"
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-6": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/Group_1000001827.png",
+            "url": "shopify://collections/bft-products"
+          }
+        },
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-8": {
+          "type": "brand_item",
+          "settings": {
+            "image": "shopify://shop_images/image_45.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-1",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-2",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-3",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-4",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-5",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-6",
+        "template--21119922831664__9e661334-de0a-4d14-8baf-44dab9cec2c7-brand_item-8"
+      ],
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "",
+        "heading_tag": "h6",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 32,
+        "sec_heading_spacing": 36,
+        "color_scheme": "scheme-1",
+        "border_item": false,
+        "url_target": "_self",
+        "navUI": false,
+        "dotUI": true,
+        "col_dk": "5",
+        "animated": "none",
+        "col_tb": "3",
+        "col_mb": "2",
+        "padding_top": 15,
+        "padding_bottom": 77,
+        "padding_rate": 20
+      }
+    },
+    "bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec": {
+      "type": "collections-list",
+      "blocks": {
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gate-automation-kits",
+            "title": "Gate Automation Kits",
+            "collection_link": "shopify://collections/gate-automation-kits"
+          }
+        },
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gate-motors",
+            "image": "shopify://shop_images/phobos_BT_AC_A25.jpg",
+            "title": "Gate Motors",
+            "collection_link": "shopify://collections/gate-motors"
+          }
+        },
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "automatic-bollards",
+            "title": "Automatic Bollards",
+            "collection_link": "shopify://collections/bollards"
+          }
+        },
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "replacement-parts",
+            "title": "Replacement parts",
+            "collection_link": "shopify://collections/replacement-parts"
+          }
+        },
+        "collection_item_7mkF8e": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "automatic-barriers",
+            "title": "Automatic Barriers",
+            "collection_link": "shopify://collections/automatic-barriers"
+          }
+        },
+        "collection_item_4CWW8P": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "door-automation",
+            "image": "shopify://shop_images/950-insit-v2-500-w440_w434.jpg",
+            "title": "Door Automation",
+            "collection_link": "shopify://collections/door-automation"
+          }
+        }
+      },
+      "block_order": [
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-1",
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-2",
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-3",
+        "template--21119922831664__bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec-collection_item-4",
+        "collection_item_7mkF8e",
+        "collection_item_4CWW8P"
+      ],
+      "custom_css": [
+        ".hdt-collections-list .hdt-slider__button[disabled=\"disabled\"] svg path {fill: #092333;}",
+        ".hdt-collections-list .hdt-slider__button svg path {fill: #fff;}"
+      ],
+      "settings": {
+        "heading_align": "start",
+        "sec_heading": "Shop by Popular Category",
+        "heading_tag": "h6",
+        "heading_size": "h5",
+        "sec_subheading": "<p>Offering Gate Kits, Gate Automation & Hardware</p>",
+        "subheading_size": "base",
+        "heading_reverse": false,
+        "btn_heading_collection": false,
+        "heading_gap": 6,
+        "sec_heading_spacing": 13,
+        "collection_list": [],
+        "collection_des": "4",
+        "content_size": "xl",
+        "content_weight": "medium",
+        "text_transform": false,
+        "content_position": "center",
+        "content_padding": 45,
+        "image_ratio": "square",
+        "image_size": false,
+        "col_dk": "5",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_items": "10",
+        "half_item": false,
+        "navUI": true,
+        "nav_des": "outline",
+        "nav_pos": "middle_in",
+        "dotUI": false,
+        "dots_pos": "on_content",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "boxed_content": false,
+        "color_scheme": "scheme-44",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 30,
+        "showviewall": true
+      }
+    },
+    "custom_icon_section_CLHVwa": {
+      "type": "custom-icon-section",
+      "blocks": {
+        "item_UfUGxg": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "box",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Group_1000002308.svg",
+            "icon_width": 60,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "Price Match Guarantee",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "item_8LHJk4": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "payment",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Van.svg",
+            "icon_width": 60,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "UK largest online gate automation store",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "item_8zetXa": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "return",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Group_1000002310.svg",
+            "icon_width": 60,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "Over 60 years of experience with gate automation",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "item_b43fWC": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "support",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Group_1000002311.svg",
+            "icon_width": 60,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "Gate Safe Certified",
+            "content": "",
+            "adding_border": false
+          }
+        },
+        "item_4tza6j": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "box",
+            "custom_svg": "",
+            "image": "shopify://shop_images/Group_1000002259.svg",
+            "icon_width": 60,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "Safe & Secure Online Payments",
+            "content": "",
+            "adding_border": false
+          }
+        }
+      },
+      "block_order": [
+        "item_UfUGxg",
+        "item_8LHJk4",
+        "item_8zetXa",
+        "item_b43fWC",
+        "item_4tza6j"
+      ],
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "Why choose the Electric Gate Store?",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 20,
+        "sec_heading_spacing": 30,
+        "icon_pos_center": true,
+        "icon_pos_center_mb": true,
+        "icon_circle": false,
+        "space_icon_heading": "medium",
+        "size_heading": "medium",
+        "heading_uppercase": false,
+        "space_heading_content": "small",
+        "col_dk": "5",
+        "col_tb": "2",
+        "col_mb": "1",
+        "carousel_mobile": true,
+        "border_style": "none",
+        "fullwidth": true,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-af61b95f-f039-4280-9042-bce15c68bded",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_rate": 75
+      }
+    },
+    "featured_collection_grid_NERk7b": {
+      "type": "featured-collection-grid",
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "Latest Products",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 18,
+        "sec_heading_spacing": 30,
+        "collection": "latest-products",
+        "product_list": [],
+        "product_des": "10",
+        "image_ratio": "square",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "products_count": 4,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "pagination_type": "view_all",
+        "paginate_pos": "center",
+        "dis_pagination": 30,
+        "btn_label": "View All Products",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "padding_rate": 75
+      }
+    },
+    "image_with_text_3tKa7M": {
+      "type": "image-with-text",
+      "blocks": {
+        "content_with_image_W9Nbbh": {
+          "type": "content-with-image",
+          "settings": {
+            "heading1": "A951 SWING DOOR <br> <span style=\"color: #FFB41C\"> OPERATOR</span>",
+            "cs_btn_label": "More Info...",
+            "cs_btn_link": "",
+            "heading2": "A One Stop Solution",
+            "img2": "shopify://shop_images/A951.jpg",
+            "heading3": "\"Let Me Get the door for you!\"",
+            "heading4": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_with_image_W9Nbbh"
+      ],
+      "custom_css": [
+        ".img-div > img {border-radius: 22px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_6503.png",
+        "style_image": "1",
+        "image_effect": "zoom-in",
+        "color_scheme": "scheme-22",
+        "image_last": false,
+        "content_position": "center-start",
+        "alignment": "left",
+        "content_pl": 0,
+        "image_last_mb": false,
+        "content_position_mb": "center",
+        "alignment_mb": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_rate": 75
+      }
+    },
+    "recommanded_collection_grid_ape7iL": {
+      "type": "recommanded-collection-grid",
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "Automation Products Recommended For You...",
+        "heading_tag": "h3",
+        "heading_size": "h5",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": true,
+        "heading_gap": 12,
+        "sec_heading_spacing": 48,
+        "collection": "recommended",
+        "product_list": [],
+        "product_des": "10",
+        "image_ratio": "square",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "products_count": 4,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "pagination_type": "view_all",
+        "paginate_pos": "center",
+        "dis_pagination": 30,
+        "btn_label": "View All Products",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_rate": 75
+      }
+    },
+    "collections_list_tEWxxM": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_p7RBkL": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gate-automation",
+            "title": "",
+            "collection_link": "shopify://collections/gate-automation"
+          }
+        },
+        "collection_item_yxALcq": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "automatic-bollards",
+            "title": "",
+            "collection_link": "shopify://collections/bollards-1"
+          }
+        },
+        "collection_item_Ttyazb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "automatic-barriers",
+            "image": "shopify://shop_images/DSC_0175.jpg",
+            "title": "",
+            "collection_link": "shopify://collections/automatic-barriers"
+          }
+        },
+        "collection_item_WJYCDa": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gate-motors",
+            "title": "",
+            "collection_link": ""
+          }
+        },
+        "collection_item_76eGVY": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gate-automation",
+            "title": "",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_p7RBkL",
+        "collection_item_yxALcq",
+        "collection_item_Ttyazb",
+        "collection_item_WJYCDa",
+        "collection_item_76eGVY"
+      ],
+      "custom_css": [
+        ".hdt-collections-list .hdt-slider__button {border: 1px solid #092333;}"
+      ],
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "btn_heading_collection": false,
+        "heading_gap": 18,
+        "sec_heading_spacing": 30,
+        "collection_list": [],
+        "collection_des": "1",
+        "content_size": "xl",
+        "content_weight": "medium",
+        "text_transform": false,
+        "content_position": "end-center",
+        "content_padding": 30,
+        "image_ratio": "square",
+        "image_size": false,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_items": "x",
+        "half_item": false,
+        "navUI": true,
+        "nav_des": "default",
+        "nav_pos": "middle_in",
+        "dotUI": false,
+        "dots_pos": "default",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "boxed_content": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 52,
+        "padding_rate": 75,
+        "showviewall": false
+      }
+    },
+    "upload_image_rece_quote_Cpe4H8": {
+      "type": "upload-image-rece-quote",
+      "settings": {
+        "img1": "shopify://shop_images/942e0e829d8d8b3644fec76aa975a4fa.png",
+        "img2": "shopify://shop_images/9de56fac9d10f884ee15d4284ae06c0f.png",
+        "img3": "shopify://shop_images/9e1dd6cebfea7295f695a004013f589a.png",
+        "icon": "shopify://shop_images/upload_1.svg",
+        "text1": "Upload images of your project and we can help you",
+        "btn1": "Upload Now",
+        "btn1_url": "",
+        "img4": "shopify://shop_images/8bb39c2e403879e8bd607179098932bb.png",
+        "icon2": "shopify://shop_images/manual_1.svg",
+        "text2": "Electric Gate Guide - Information on Gate Automation",
+        "btn2": "View Guide",
+        "btn1_url2": ""
+      }
+    },
+    "icon_with_text_jGYb7T": {
+      "type": "icon_with_text",
+      "settings": {
+        "color_scheme": "scheme-af61b95f-f039-4280-9042-bce15c68bded",
+        "image": "shopify://shop_images/Group_1000002085.png",
+        "heading1": "TECHNICAL SUPPORT",
+        "text": "Need to discuss your security project with us? <br> We're always here to help.",
+        "btn_label": "Contact Us",
+        "btn_link": "shopify://pages/contact",
+        "target": false,
+        "btn_size": "base",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "btn_icon": "none",
+        "padding_top": 30,
+        "padding_bottom": 36,
+        "padding_rate": 75
+      }
+    },
+    "custom_image_with_text_QAAV3P": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "logo_y8L7Dh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Group_1000001732.svg"
+          }
+        },
+        "heading_iEcYbj": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAAC Automation",
+            "heading_fs": "h4"
+          }
+        },
+        "text_VFFhHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FAAC Automation is the market leader in gate and door automation and produce some of the highest quality gate automation products globally. If you are looking for a FAAC gate kit to automate your manual gate or just need a replacement FAAC gate motor or FAAC gate accessories, we will be able to assist you. </p>"
+          }
+        },
+        "text_jf3jdX": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_Hr97Lp": {
+          "type": "button",
+          "settings": {
+            "btn_label": "FAAC Products",
+            "btn_link": "shopify://collections/faac-products",
+            "target": false,
+            "btn_size": "base",
+            "btn_style": "solid",
+            "btn_fw": "normal",
+            "btn_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "logo_y8L7Dh",
+        "heading_iEcYbj",
+        "text_VFFhHa",
+        "text_jf3jdX",
+        "button_Hr97Lp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_28.png",
+        "style_image": "1",
+        "image_effect": "zoom-in",
+        "color_scheme": "scheme-55",
+        "image_last": false,
+        "content_position": "center-start",
+        "alignment": "left",
+        "content_pl": 0,
+        "image_last_mb": false,
+        "content_position_mb": "center",
+        "alignment_mb": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_rate": 75
+      }
+    },
+    "featured_collection_grid_f4MfDt": {
+      "type": "featured-collection-grid",
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "FAAC's Bestsellers",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 18,
+        "sec_heading_spacing": 30,
+        "collection": "faac-products",
+        "product_list": [],
+        "product_des": "10",
+        "image_ratio": "square",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "products_count": 4,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "pagination_type": "view_all",
+        "paginate_pos": "center",
+        "dis_pagination": 30,
+        "btn_label": "View All Products",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "padding_rate": 75
+      }
+    },
+    "custom_image_with_text_ehtnfC": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "logo_jRQMEK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Group_1000001827.svg"
+          }
+        },
+        "heading_GJp9ct": {
+          "type": "heading",
+          "settings": {
+            "heading": "BFT Automation",
+            "heading_fs": "h4"
+          }
+        },
+        "text_PF97aq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BFT Automation is a market leader in automation products, with over 40 years in the industry. We are known for product quality, excellent customer service and expert technical support.</p>"
+          }
+        },
+        "text_iCXyzb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We stock a wide range of automation products, all manufactured to the highest standards to ensure maximum reliability. We are widely known for our gate automation products...</p>"
+          }
+        },
+        "button_gqe6BR": {
+          "type": "button",
+          "settings": {
+            "btn_label": "All BFT Products",
+            "btn_link": "shopify://collections/bft-products",
+            "target": false,
+            "btn_size": "base",
+            "btn_style": "solid",
+            "btn_fw": "normal",
+            "btn_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "logo_jRQMEK",
+        "heading_GJp9ct",
+        "text_PF97aq",
+        "text_iCXyzb",
+        "button_gqe6BR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Demo_Room_swing3.webp",
+        "style_image": "1",
+        "image_effect": "zoom-in",
+        "color_scheme": "scheme-55",
+        "image_last": true,
+        "content_position": "center-start",
+        "alignment": "left",
+        "content_pl": 0,
+        "image_last_mb": false,
+        "content_position_mb": "center",
+        "alignment_mb": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_rate": 75
+      }
+    },
+    "featured_collection_grid_CghxdN": {
+      "type": "featured-collection-grid",
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "BFT Bestsellers",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 18,
+        "sec_heading_spacing": 30,
+        "collection": "bft-products",
+        "product_list": [],
+        "product_des": "10",
+        "image_ratio": "square",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "products_count": 4,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "pagination_type": "view_all",
+        "paginate_pos": "center",
+        "dis_pagination": 30,
+        "btn_label": "View All Products",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_rate": 75
+      }
+    },
+    "banner_rB7e6h": {
+      "type": "banner",
+      "blocks": {
+        "banner_3_XzHGDz": {
+          "type": "banner_3",
+          "settings": {
+            "logoid": true,
+            "logoimg": "shopify://shop_images/computer_1_1_1.svg",
+            "image": "shopify://shop_images/Group_1000001962.png",
+            "color_scheme": "",
+            "banner_url": "",
+            "banner_target": false,
+            "sub_heading": "",
+            "sub_heading_fs": "base",
+            "sub_heading_fw": "bold",
+            "sub_heading_space": 0,
+            "heading": "TRADE LOGIN",
+            "heading_fs": "h4",
+            "heading_fw": "semibold",
+            "heading_space": 18,
+            "desc": "<span> For professional gate & security contractors</span>",
+            "des_space": 28,
+            "btn_label": "",
+            "btn_link": "",
+            "target": false,
+            "btn_size": "sm",
+            "btn_style": "outline-2",
+            "btn_fw": "medium",
+            "btn_icon": "1",
+            "content_position": "center-start",
+            "alignment": "center",
+            "content_position_mb": "center-start",
+            "alignment_mb": "center"
+          }
+        }
+      },
+      "block_order": [
+        "banner_3_XzHGDz"
+      ],
+      "custom_css": [
+        ".hdt-place-self-center-start {margin-bottom: 10%;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "boxed_fullwidth": false,
+        "col_dk": "1",
+        "row_height": 440,
+        "content_pd_y": 15,
+        "content_pd_x": 15,
+        "space_item": 30,
+        "col_tb": "1",
+        "row_height_tb": 500,
+        "space_item_tb": 15,
+        "row_height_mb": 250,
+        "space_item_mb": 15,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_rate": 75
+      }
+    },
+    "custom_icon_with_text_nzrTNf": {
+      "type": "custom_icon_with_text",
+      "settings": {
+        "color_scheme": "scheme-22",
+        "image": "shopify://shop_images/Group_1000001732.svg",
+        "heading1": "Introductory offer - TRADE10 for 10% off all FAAC Products",
+        "text": "Register for a Trade Account",
+        "btn_label": "Click to register for an online account",
+        "btn_link": "https://d832f4.myshopify.com/account/register",
+        "target": false,
+        "btn_size": "lg",
+        "btn_style": "solid",
+        "btn_fw": "normal",
+        "btn_icon": "none",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 75
+      }
+    },
+    "1715864971fc1066cf": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_AahADb": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_AahADb"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "testimonials_UHAEFP": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_hxexKM": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify://shop_images/Avatar_Image_1.png",
+            "heading": "Steve Smith",
+            "content": "<p>Excellent service, and very patient and helpful concerning the numerous questions I was asking.Delivered on time.Good value and good service,what more can you aks for?</p>",
+            "author": "Date: 16 June 2023",
+            "pos": "",
+            "enable_verify": true,
+            "product": "",
+            "rating": 5
+          }
+        },
+        "quote_mtFRWh": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify://shop_images/Avatar_Image_2.png",
+            "heading": "Steve Smith",
+            "content": "<p>Excellent service, and very patient and helpful concerning the numerous questions I was asking.Delivered on time.Good value and good service,what more can you aks for?</p>",
+            "author": "Date: 16 June 2023",
+            "pos": "",
+            "enable_verify": false,
+            "product": "",
+            "rating": 5
+          }
+        },
+        "quote_y9WaNN": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify://shop_images/Avatar_Image_4.png",
+            "heading": "Steve Smith",
+            "content": "<p>Excellent service, and very patient and helpful concerning the numerous questions I was asking.Delivered on time.Good value and good service,what more can you aks for?</p>",
+            "author": "Date: 16 June 2023",
+            "pos": "",
+            "enable_verify": false,
+            "product": "",
+            "rating": 5
+          }
+        },
+        "quote_aGXYz6": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify://shop_images/Avatar_Image_4_100dc79c-bea9-4e07-b141-fdbea739e4b4.png",
+            "heading": "Steve Smith",
+            "content": "<p>Excellent service, and very patient and helpful concerning the numerous questions I was asking.Delivered on time.Good value and good service,what more can you aks for?</p>",
+            "author": "Date: 16 June 2023",
+            "pos": "",
+            "enable_verify": false,
+            "product": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_hxexKM",
+        "quote_mtFRWh",
+        "quote_y9WaNN",
+        "quote_aGXYz6"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_align": "start",
+        "sec_heading": "What our clients think of our gate kits:",
+        "heading_tag": "h2",
+        "heading_size": "h5",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 18,
+        "sec_heading_spacing": 48,
+        "content_align": "start",
+        "testimonial_des": "1",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "navUI": false,
+        "nav_pos": "middle_out",
+        "nav_des": "default",
+        "dotUI": false,
+        "dis_dot": 30,
+        "color_scheme": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
+        "pr_rating": "#ffb41c",
+        "section_fullwidth": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 75,
+        "btnlabel": "View More",
+        "btnlink": "shopify://pages/customer-review"
+      }
+    },
+    "custom_banner_image_text_94tcLD": {
+      "type": "custom-banner-image-text",
+      "settings": {
+        "image_height": "adapt_image",
+        "fixed_height": 860,
+        "image_height_mb": "adapt_image",
+        "fixed_height_mb": 300,
+        "image": "shopify://shop_images/Group_1000001993.png",
+        "link_img": "",
+        "target": false,
+        "image_behavior": "none",
+        "use_overlay": false,
+        "use_bg_content": false,
+        "content_position": "center",
+        "content_align": "center",
+        "content_position_mb": "center",
+        "content_align_mb": "center",
+        "full_width": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_rate": 75
+      }
+    },
+    "custom_icon_section02_CybwLf": {
+      "type": "custom-icon-section02",
+      "blocks": {
+        "item_UXTdVw": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "box",
+            "custom_svg": "",
+            "image": "shopify://shop_images/user_1_1.svg",
+            "icon_width": 36,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "My Account",
+            "content": "<p>Sign In To Your Account</p>",
+            "adding_border": false
+          }
+        },
+        "item_x9fP8m": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "payment",
+            "custom_svg": "",
+            "image": "shopify://shop_images/carbon_email.svg",
+            "icon_width": 36,
+            "icon_width_mb": 30,
+            "link": "mailto:sales@theelectricgatestore.co.uk",
+            "open_link": false,
+            "title": "Email",
+            "content": "<p>sales@theelectricgatestore.co.uk</p>",
+            "adding_border": false
+          }
+        },
+        "item_nR4rtP": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "return",
+            "custom_svg": "",
+            "image": "shopify://shop_images/fluent_call-32-regular.svg",
+            "icon_width": 36,
+            "icon_width_mb": 30,
+            "link": "tel:07771611035",
+            "open_link": false,
+            "title": "Phone Number",
+            "content": "<p>07771611035</p>",
+            "adding_border": false
+          }
+        },
+        "item_fM9PhA": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "support",
+            "custom_svg": "",
+            "image": "shopify://shop_images/chat_1_1.svg",
+            "icon_width": 36,
+            "icon_width_mb": 30,
+            "link": "",
+            "open_link": false,
+            "title": "Start a chat",
+            "content": "<p>For general enquiry</p>",
+            "adding_border": false
+          }
+        }
+      },
+      "block_order": [
+        "item_UXTdVw",
+        "item_x9fP8m",
+        "item_nR4rtP",
+        "item_fM9PhA"
+      ],
+      "settings": {
+        "heading_align": "center",
+        "sec_heading": "",
+        "heading_tag": "h3",
+        "heading_size": "h4",
+        "sec_subheading": "",
+        "subheading_size": "lg",
+        "heading_reverse": false,
+        "heading_gap": 29,
+        "sec_heading_spacing": 30,
+        "icon_pos_center": false,
+        "icon_pos_center_mb": true,
+        "icon_circle": false,
+        "space_icon_heading": "medium",
+        "size_heading": "medium",
+        "heading_uppercase": false,
+        "space_heading_content": "small",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "carousel_mobile": true,
+        "border_style": "none",
+        "fullwidth": true,
+        "boxed_fullwidth": false,
+        "color_scheme": "scheme-af61b95f-f039-4280-9042-bce15c68bded",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_rate": 75
+      }
+    },
+    "form_contact_with_text_ETdp3n": {
+      "type": "form_contact-with-text",
+      "settings": {
+        "color_scheme": "scheme-42697370-cf82-491e-8b34-34a232b29806",
+        "heading": "Cannot Find What You Are Looking For?",
+        "sub_heading": "Send a Photo of your gate part and we can identify the part for you",
+        "btn_full": false,
+        "padding_top": 40,
+        "padding_bottom": 56,
+        "padding_rate": 75
+      }
+    }
+  },
+  "order": [
+    "slideshow_with_banner_gxDwkg",
+    "3350a7b8-0ebe-4590-b09f-f48c11888dc7",
+    "9e661334-de0a-4d14-8baf-44dab9cec2c7",
+    "bd0df39b-0a4d-4ff1-8fa5-a65a5a9165ec",
+    "custom_icon_section_CLHVwa",
+    "featured_collection_grid_NERk7b",
+    "image_with_text_3tKa7M",
+    "recommanded_collection_grid_ape7iL",
+    "collections_list_tEWxxM",
+    "upload_image_rece_quote_Cpe4H8",
+    "icon_with_text_jGYb7T",
+    "custom_image_with_text_QAAV3P",
+    "featured_collection_grid_f4MfDt",
+    "custom_image_with_text_ehtnfC",
+    "featured_collection_grid_CghxdN",
+    "banner_rB7e6h",
+    "custom_icon_with_text_nzrTNf",
+    "1715864971fc1066cf",
+    "testimonials_UHAEFP",
+    "custom_banner_image_text_94tcLD",
+    "custom_icon_section02_CybwLf",
+    "form_contact_with_text_ETdp3n"
+  ]
+}

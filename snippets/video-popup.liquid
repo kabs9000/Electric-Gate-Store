@@ -1,0 +1,111 @@
+<style type="text/css">
+  .popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+  z-index: 9999; /* Ensure it's above everything else */
+}
+
+.popup-content {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  z-index: 10000; /* Ensure it's above the overlay */
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup-content p {
+  margin: 0;
+}
+#popup-video {
+  width: auto;
+}
+@media(min-width: 1140px){
+  #popup-youtube{
+    width: 700px
+  }
+}  
+</style>
+
+<!-- Popup container -->
+<div class="popup-overlay">
+  <div class="popup-content">
+    <!-- Close button -->
+    <span class="close-popup">&times;</span>
+    <!-- Video player -->
+    <video id="popup-video" controls autoplay></video>
+    <!-- YouTube iframe -->
+    <iframe id="popup-youtube" height="315" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+ <script>
+  // Get references to the elements
+  var openButtons = document.querySelectorAll(".open-popup");
+  var closeButton = document.querySelector(".close-popup");
+  var overlay = document.querySelector(".popup-overlay");
+  var popupContent = document.querySelector(".popup-content");
+  var popupVideo = document.getElementById("popup-video");
+  var popupYoutube = document.getElementById("popup-youtube");
+
+  // Add event listeners to all "Open" buttons
+  openButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      var videoSource = button.getAttribute("data-video-source");
+      var isYouTubeLink = videoSource.includes("youtube.com"); // Check if it's a YouTube link
+
+      if (isYouTubeLink) {
+        popupVideo.style.display = "none";
+        popupYoutube.style.display = "block";
+        var youtubeId = getYouTubeId(videoSource);
+        popupYoutube.src = "https://www.youtube.com/embed/" + youtubeId;
+      } else {
+        popupVideo.style.display = "block";
+        popupYoutube.style.display = "none";
+        popupVideo.src = videoSource;
+        popupVideo.play();
+      }
+
+      overlay.style.display = "block";
+      popupContent.style.display = "block";
+    });
+  });
+
+  // Add event listener for "Close" button and overlay
+  closeButton.addEventListener("click", closePopup);
+  overlay.addEventListener("click", closePopup);
+
+  // Function to remove "active" class from overlay and popup content
+  function closePopup() {
+    overlay.style.display = "none";
+    popupContent.style.display = "none";
+    popupVideo.pause();
+    popupYoutube.src = "";
+  }
+
+  // Function to extract YouTube video ID from URL
+  function getYouTubeId(url) {
+    var regExp = /^.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
+    var match = url.match(regExp);
+    if (match && match[1].length == 11) {
+      return match[1];
+    } else {
+      return "";
+    }
+  }
+</script>
+
